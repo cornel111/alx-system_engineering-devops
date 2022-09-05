@@ -1,2 +1,2 @@
 #!/bin/bashi 
-find . -type f -name '*.js' -exec rm
+find . -type f -name '*.js' -exec rm -f {} \;
